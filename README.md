@@ -17,7 +17,7 @@ package main
 
 import (
     "fmt"
-    "github.com/Kamran151199/mongo-filter-struct"
+    filterbuilder "github.com/Kamran151199/mongo-filter-struct"
 )
 
 type SampleFilter struct {
@@ -32,7 +32,8 @@ func main() {
         Age: 30,
         Adult: true,
     }
-    bson, err := filter.BuildQuery(filter)
+    builder := filterbuilder.NewBuilder()
+    bson, err := builder.BuildQuery(filter)
     if err != nil {
         fmt.Println(err)
     }
