@@ -1,4 +1,5 @@
 # MongoDB-Filter-Struct
+![Test workflow](https://github.com/Kamran151199/mongo-filter-struct/.github/workflows/test.yml/badge.svg)
 
 ## Introduction
 `mongo-filter-struct` is a library for creating filtration bson for MongoDB using golang's native struct type.
