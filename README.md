@@ -7,7 +7,7 @@ It is inspired by [django-rest-framework-filters](https://github.com/philipn/dja
 ## Installation
 
 ```bash
-go get github.com/Kamran151199/mongodb-filter-struct
+go get github.com/Kamran151199/mongo-filter-struct
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ package main
 
 import (
     "fmt"
-    "github.com/Kamran151199/mongodb-filter-struct"
+    "github.com/Kamran151199/mongo-filter-struct"
 )
 
 type SampleFilter struct {
