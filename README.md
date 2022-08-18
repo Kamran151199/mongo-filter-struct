@@ -53,4 +53,4 @@ func main() {
 
 GNU License Version 3, see [LICENSE](LICENSE)
 
-Copyright (c) 2020 Kamran
+Copyright (c) 2022 Kamran
