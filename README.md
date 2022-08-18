@@ -1,7 +1,7 @@
 # MongoDB-Filter-Struct
 
 ## Introduction
-`mongodb-filter-struct` is a library for creating filtration bson for MongoDB using golang's native struct type.
+`mongo-filter-struct` is a library for creating filtration bson for MongoDB using golang's native struct type.
 It is inspired by [django-rest-framework-filters](https://github.com/philipn/django-rest-framework-filters)
 
 ## Installation
